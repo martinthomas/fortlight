@@ -1,0 +1,6 @@
+strip = neopixel.create(DigitalPin.P0, 30, NeoPixelMode.RGB)
+strip.show_color(neopixel.colors(NeoPixelColors.BLACK))
+strip.show()
+basic.pause(500)
+strip.set_brightness(128)
+strip.show_color(neopixel.colors(NeoPixelColors.WHITE))
